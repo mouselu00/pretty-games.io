@@ -1,0 +1,2607 @@
+@charset "UTF-8";
+/* 顏色變數 */
+/* 主色 */
+/* 紅 */
+/* 桃紅～粉紅 */
+/* 紫 */
+/* 褐~橘~米白 */
+/* 金~黃 */
+/* 綠 */
+/* 藍 */
+/* 黑~灰~白 */
+/* 顏色樣式 */
+.bg-lightpink {
+  background-color: lightpink;
+  color: white; }
+
+.btn-lightpink {
+  color: white;
+  background-color: lightpink;
+  border-color: lightpink; }
+
+.btn-deeppink {
+  color: white;
+  background-color: deeppink; }
+
+a.btn-deeppink:hover {
+  color: white;
+  background-color: hotpink; }
+
+.bg-dark {
+  background-color: black; }
+
+/* 響應式 */
+@media (max-width: 575px) {
+  p, a, .input-group-text, .btn, div {
+    font-size: 12px; } }
+
+a, a:hover {
+  text-decoration: none; }
+
+/* CSS Document */
+.bg-maincolor {
+  background: #E50056; }
+
+.btn-maincolor {
+  color: white;
+  background-color: #E50056; }
+
+a.btn-maincolor {
+  color: white;
+  background-color: #E50056; }
+
+/* 各類顏色樣式 */
+/*16進位色碼按鈕*/
+.bg-black {
+  background: #000000; }
+
+.bg-lightgray {
+  background: #D3D3D3; }
+
+.bg-dimgray {
+  background: #696969; }
+
+.bg-gray {
+  background: #808080; }
+
+.bg-slategray {
+  background: #708090; }
+
+.bg-lightslategray {
+  background: #778899; }
+
+.bg-darkgray {
+  background: #A9A9A9; }
+
+.bg-silver {
+  background: #C0C0C0; }
+
+.bg-gainsboro {
+  background: #DCDCDC; }
+
+.bg-whitesmoke {
+  background: #F5F5F5; }
+
+.bg-ghostwhite {
+  background: #F8F8FF; }
+
+.bg-white {
+  background: #FFFFFF; }
+
+.btn-black {
+  color: white;
+  background-color: black; }
+
+.btn-aliceblue {
+  color: black;
+  background-color: aliceblue; }
+
+.btn-cadetblue {
+  color: white;
+  background-color: cadetblue; }
+
+.btn-lightyellow {
+  color: black;
+  background-color: lightyellow; }
+
+.btn-coral {
+  color: white;
+  background-color: coral; }
+
+.btn-dimgray {
+  color: white;
+  background-color: dimgray; }
+
+.btn-lavender {
+  color: white;
+  background-color: lavender; }
+
+.btn-darkcyan {
+  color: white;
+  background-color: darkcyan; }
+
+.btn-lightgoldenrodyellow {
+  color: black;
+  background-color: lightgoldenrodyellow; }
+
+.btn-tomato {
+  color: white;
+  background-color: tomato; }
+
+.btn-gray {
+  color: white;
+  background-color: gray; }
+
+.btn-lightslategray {
+  color: white;
+  background-color: lightslategray; }
+
+.btn-teal {
+  color: white;
+  background-color: teal; }
+
+.btn-lemonchiffon {
+  color: black;
+  background-color: lemonchiffon; }
+
+.btn-orangered {
+  color: white;
+  background-color: orangered; }
+
+.btn-darkgray {
+  color: white;
+  background-color: darkgray; }
+
+.btn-slategray {
+  color: white;
+  background-color: slategray; }
+
+.btn-seagreen {
+  color: white;
+  background-color: seagreen; }
+
+.btn-wheat {
+  color: black;
+  background-color: wheat; }
+
+.btn-red {
+  color: white;
+  background-color: red; }
+
+.btn-silver {
+  color: white;
+  background-color: silver; }
+
+.btn-darkslategray {
+  color: white;
+  background-color: darkslategray; }
+
+.btn-darkolivegreen {
+  color: white;
+  background-color: darkolivegreen; }
+
+.btn-burlywood {
+  color: white;
+  background-color: burlywood; }
+
+.btn-crimson {
+  color: white;
+  background-color: crimson; }
+
+.btn-lightgrey {
+  color: black;
+  background-color: #d3d3d3; }
+
+.btn-lightsteelblue {
+  color: black;
+  background-color: lightsteelblue; }
+
+.btn-darkgreen {
+  color: white;
+  background-color: darkgreen; }
+
+.btn-tan {
+  color: black;
+  background-color: tan; }
+
+.btn-mediumvioletred {
+  color: white;
+  background-color: mediumvioletred; }
+
+.btn-gainsboro {
+  color: black;
+  background-color: gainsboro; }
+
+.btn-steelblue {
+  color: white;
+  background-color: steelblue; }
+
+.btn-green {
+  color: white;
+  background-color: green; }
+
+.btn-khaki {
+  color: black;
+  background-color: khaki; }
+
+.btn-deeppink {
+  color: white;
+  background-color: deeppink; }
+
+.btn-white {
+  color: black;
+  background-color: white;
+  border-color: black; }
+
+.btn-royalblue {
+  color: white;
+  background-color: royalblue; }
+
+.btn-forestgreen {
+  color: white;
+  background-color: forestgreen; }
+
+.btn-yellow {
+  color: black;
+  background-color: yellow; }
+
+.btn-hotpink {
+  color: white;
+  background-color: hotpink; }
+
+.btn-snow {
+  color: black;
+  background-color: snow; }
+
+.btn-midnightblue {
+  color: white;
+  background-color: midnightblue; }
+
+.btn-mediumseagreen {
+  color: white;
+  background-color: mediumseagreen; }
+
+.btn-gold {
+  color: black;
+  background-color: gold; }
+
+.btn-palevioletred {
+  color: white;
+  background-color: palevioletred; }
+
+.btn-ghostwhite {
+  color: black;
+  background-color: ghostwhite; }
+
+.btn-navy {
+  color: white;
+  background-color: navy; }
+
+.btn-darkseagreen {
+  color: white;
+  background-color: darkseagreen; }
+
+.btn-orange {
+  color: white;
+  background-color: orange; }
+
+.btn-pink {
+  color: black;
+  background-color: pink; }
+
+.btn-whitesmoke {
+  color: black;
+  background-color: whitesmoke; }
+
+.btn-darkblue {
+  color: white;
+  background-color: darkblue; }
+
+.btn-mediumaquamarine {
+  color: white;
+  background-color: mediumaquamarine; }
+
+.btn-sandybrown {
+  color: white;
+  background-color: sandybrown; }
+
+.btn-lightpink {
+  color: black;
+  background-color: lightpink; }
+
+.btn-floralwhite {
+  color: black;
+  background-color: floralwhite; }
+
+.btn-mediumblue {
+  color: white;
+  background-color: mediumblue; }
+
+.btn-aquamarine {
+  color: white;
+  background-color: aquamarine; }
+
+.btn-darkorange {
+  color: white;
+  background-color: darkorange; }
+
+.btn-thistle {
+  color: black;
+  background-color: thistle; }
+
+.btn-linen {
+  color: black;
+  background-color: linen; }
+
+.btn-blue {
+  color: white;
+  background-color: blue; }
+
+.btn-palegreen {
+  color: white;
+  background-color: palegreen; }
+
+.btn-goldenrod {
+  color: white;
+  background-color: goldenrod; }
+
+.btn-magenta {
+  color: white;
+  background-color: magenta; }
+
+.btn-antiquewhite {
+  color: black;
+  background-color: antiquewhite; }
+
+.btn-dodgerblue {
+  color: white;
+  background-color: dodgerblue; }
+
+.btn-lightgreen {
+  color: white;
+  background-color: lightgreen; }
+
+.btn-peru {
+  color: white;
+  background-color: peru; }
+
+.btn-fuchsia {
+  color: white;
+  background-color: fuchsia; }
+
+.btn-papayawhip {
+  color: black;
+  background-color: papayawhip; }
+
+.btn-cornflowerblue {
+  color: white;
+  background-color: cornflowerblue; }
+
+.btn-springgreen {
+  color: white;
+  background-color: springgreen; }
+
+.btn-darkgoldenrod {
+  color: white;
+  background-color: darkgoldenrod; }
+
+.btn-violet {
+  color: white;
+  background-color: violet; }
+
+.btn-blanchedalmond {
+  color: black;
+  background-color: blanchedalmond; }
+
+.btn-deepskyblue {
+  color: white;
+  background-color: deepskyblue; }
+
+.btn-mediumspringgreen {
+  color: white;
+  background-color: mediumspringgreen; }
+
+.btn-chocolate {
+  color: white;
+  background-color: chocolate; }
+
+.btn-plum {
+  color: black;
+  background-color: plum; }
+
+.btn-bisque {
+  color: black;
+  background-color: bisque; }
+
+.btn-lightskyblue {
+  color: black;
+  background-color: lightskyblue; }
+
+.btn-lawngreen {
+  color: white;
+  background-color: lawngreen; }
+
+.btn-sienna {
+  color: white;
+  background-color: sienna; }
+
+.btn-orchid {
+  color: white;
+  background-color: orchid; }
+
+.btn-moccasin {
+  color: black;
+  background-color: moccasin; }
+
+.btn-skyblue {
+  color: black;
+  background-color: skyblue; }
+
+.btn-chartreuse {
+  color: white;
+  background-color: chartreuse; }
+
+.btn-saddlebrown {
+  color: white;
+  background-color: saddlebrown; }
+
+.btn-mediumorchid {
+  color: white;
+  background-color: mediumorchid; }
+
+.btn-navajowhite {
+  color: black;
+  background-color: navajowhite; }
+
+.btn-lightblue {
+  color: black;
+  background-color: lightblue; }
+
+.btn-greenyellow {
+  color: white;
+  background-color: greenyellow; }
+
+.btn-maroon {
+  color: white;
+  background-color: maroon; }
+
+.btn-darkorchid {
+  color: white;
+  background-color: darkorchid; }
+
+.btn-peachpuff {
+  color: black;
+  background-color: peachpuff; }
+
+.btn-powderblue {
+  color: black;
+  background-color: powderblue; }
+
+.btn-lime {
+  color: white;
+  background-color: lime; }
+
+.btn-darkred {
+  color: white;
+  background-color: darkred; }
+
+.btn-darkviolet {
+  color: white;
+  background-color: darkviolet; }
+
+.btn-mistyrose {
+  color: black;
+  background-color: mistyrose; }
+
+.btn-paleturquoise {
+  color: black;
+  background-color: paleturquoise; }
+
+.btn-limegreen {
+  color: white;
+  background-color: limegreen; }
+
+.btn-brown {
+  color: white;
+  background-color: brown; }
+
+.btn-darkmagenta {
+  color: white;
+  background-color: darkmagenta; }
+
+.btn-lavenderblush {
+  color: black;
+  background-color: lavenderblush; }
+
+.btn-lightcyan {
+  color: black;
+  background-color: lightcyan; }
+
+.btn-yellowgreen {
+  color: white;
+  background-color: yellowgreen; }
+
+.btn-firebrick {
+  color: white;
+  background-color: firebrick; }
+
+.btn-purple {
+  color: white;
+  background-color: purple; }
+
+.btn-seashell {
+  color: black;
+  background-color: seashell; }
+
+.btn-cyan {
+  color: white;
+  background-color: cyan; }
+
+.btn-olivedrab {
+  color: white;
+  background-color: olivedrab; }
+
+.btn-indianred {
+  color: white;
+  background-color: indianred; }
+
+.btn-indigo {
+  color: white;
+  background-color: indigo; }
+
+.btn-oldlace {
+  color: black;
+  background-color: oldlace; }
+
+.btn-aqua {
+  color: white;
+  background-color: aqua; }
+
+.btn-olive {
+  color: white;
+  background-color: olive; }
+
+.btn-rosybrown {
+  color: white;
+  background-color: rosybrown; }
+
+.btn-darkslateblue {
+  color: white;
+  background-color: darkslateblue; }
+
+.btn-ivory {
+  color: black;
+  background-color: ivory; }
+
+.btn-turquoise {
+  color: black;
+  background-color: turquoise; }
+
+.btn-darkkhaki {
+  color: white;
+  background-color: darkkhaki; }
+
+.btn-darksalmon {
+  color: white;
+  background-color: darksalmon; }
+
+.btn-blueviolet {
+  color: white;
+  background-color: blueviolet; }
+
+.btn-honeydew {
+  color: black;
+  background-color: honeydew; }
+
+.btn-mediumturquoise {
+  color: black;
+  background-color: mediumturquoise; }
+
+.btn-palegoldenrod {
+  color: black;
+  background-color: palegoldenrod; }
+
+.btn-lightcoral {
+  color: white;
+  background-color: lightcoral; }
+
+.btn-mediumpurple {
+  color: white;
+  background-color: mediumpurple; }
+
+.btn-mintcream {
+  color: black;
+  background-color: mintcream; }
+
+.btn-darkturquoise {
+  color: black;
+  background-color: darkturquoise; }
+
+.btn-cornsilk {
+  color: black;
+  background-color: cornsilk; }
+
+.btn-salmon {
+  color: white;
+  background-color: salmon; }
+
+.btn-slateblue {
+  color: white;
+  background-color: slateblue; }
+
+.btn-azure {
+  color: black;
+  background-color: azure; }
+
+.btn-lightseagreen {
+  color: white;
+  background-color: lightseagreen; }
+
+.btn-beige {
+  color: black;
+  background-color: beige; }
+
+.btn-lightsalmon {
+  color: white;
+  background-color: lightsalmon; }
+
+.btn-mediumslateblue {
+  color: white;
+  background-color: mediumslateblue; }
+
+.btn-rhodaminered {
+  color: white;
+  background-color: #d10572; }
+
+.btn-marineblue {
+  color: white;
+  background-color: #00477D; }
+
+.btn-pms534 {
+  color: white;
+  background-color: #3a4972; }
+
+.btn-pms540 {
+  color: white;
+  background-color: #00335b; }
+
+.btn-pms732 {
+  color: white;
+  background-color: #60330a; }
+
+.btn-pms1905 {
+  color: black;
+  background-color: #fc9bb2; }
+
+.btn-pms1915 {
+  color: white;
+  background-color: #f4547c; }
+
+.btn-black7 {
+  color: white;
+  background-color: #443d38; }
+
+.btn-black:hover {
+  color: black;
+  background-color: white;
+  border-color: black; }
+
+.btn-aliceblue:hover {
+  color: black;
+  background-color: #d3eaff; }
+
+.btn-cadetblue:hover {
+  color: white;
+  background-color: #497e80; }
+
+.btn-lightyellow:hover {
+  color: black;
+  background-color: #f1f1bd; }
+
+.btn-coral:hover {
+  color: white;
+  background-color: #ff6d37; }
+
+.btn-dimgray:hover {
+  color: white;
+  background-color: #4a4a4a; }
+
+.btn-lavender:hover {
+  color: white;
+  background-color: #d0d0f5; }
+
+.btn-darkcyan:hover {
+  color: white;
+  background-color: #007171; }
+
+.btn-lightgoldenrodyellow:hover {
+  color: black;
+  background-color: #f5f5b3; }
+
+.btn-tomato:hover {
+  color: white;
+  background-color: #f54d2f; }
+
+.btn-gray:hover {
+  color: white;
+  background-color: dimgray; }
+
+.btn-lightslategray:hover {
+  color: white;
+  background-color: #5e6e7d; }
+
+.btn-teal:hover {
+  color: white;
+  background-color: #005f5f; }
+
+.btn-lemonchiffon:hover {
+  color: black;
+  background-color: #fff39e; }
+
+.btn-orangered:hover {
+  color: white;
+  background-color: #e03d00; }
+
+.btn-darkgray:hover {
+  color: white;
+  background-color: gray; }
+
+.btn-slategray:hover {
+  color: white;
+  background-color: #556371; }
+
+.btn-seagreen:hover {
+  color: white;
+  background-color: #217144; }
+
+.btn-wheat:hover {
+  color: black;
+  background-color: #f5d497; }
+
+.btn-red:hover {
+  color: white;
+  background-color: #ca0000; }
+
+.btn-silver:hover {
+  color: white;
+  background-color: darkgray; }
+
+.btn-darkslategray:hover {
+  color: white;
+  background-color: #1f3535; }
+
+.btn-darkolivegreen:hover {
+  color: white;
+  background-color: #3f5021; }
+
+.btn-burlywood:hover {
+  color: white;
+  background-color: #ca9f67; }
+
+.btn-crimson:hover {
+  color: white;
+  background-color: #c1072d; }
+
+.btn-lightgrey:hover {
+  color: black;
+  background-color: silver; }
+
+.btn-lightsteelblue:hover {
+  color: black;
+  background-color: #90a9ca; }
+
+.btn-darkgreen:hover {
+  color: white;
+  background-color: #004800; }
+
+.btn-tan:hover {
+  color: black;
+  background-color: #b7986e; }
+
+.btn-mediumvioletred:hover {
+  color: white;
+  background-color: #b50072; }
+
+.btn-gainsboro:hover {
+  color: black;
+  background-color: #d3d3d3; }
+
+.btn-steelblue:hover {
+  color: white;
+  background-color: #336d9c; }
+
+.btn-green:hover {
+  color: white;
+  background-color: #006300; }
+
+.btn-khaki:hover {
+  color: black;
+  background-color: #e8db63; }
+
+.btn-deeppink:hover {
+  color: white;
+  background-color: #de0078; }
+
+.btn-white:hover {
+  color: white;
+  background-color: black;
+  border-color: white; }
+
+.btn-royalblue:hover {
+  color: white;
+  background-color: #3052b5; }
+
+.btn-forestgreen:hover {
+  color: white;
+  background-color: #167516; }
+
+.btn-yellow:hover {
+  color: black;
+  background-color: gold; }
+
+.btn-hotpink:hover {
+  color: white;
+  background-color: #ec4b9c; }
+
+.btn-snow:hover {
+  color: black;
+  background-color: #efe5e5; }
+
+.btn-midnightblue:hover {
+  color: white;
+  background-color: #1b1b5d; }
+
+.btn-mediumseagreen:hover {
+  color: white;
+  background-color: #2a9058; }
+
+.btn-gold:hover {
+  color: black;
+  background-color: #ffb100; }
+
+.btn-palevioletred:hover {
+  color: white;
+  background-color: #d4537d; }
+
+.btn-ghostwhite:hover {
+  color: black;
+  background-color: #e5e5f1; }
+
+.btn-navy:hover {
+  color: white;
+  background-color: #080869; }
+
+.btn-darkseagreen:hover {
+  color: white;
+  background-color: #71a071; }
+
+.btn-orange:hover {
+  color: white;
+  background-color: darkorange; }
+
+.btn-pink:hover {
+  color: black;
+  background-color: #ffa7b6; }
+
+.btn-whitesmoke:hover {
+  color: black;
+  background-color: #e6e1e1; }
+
+.btn-darkblue:hover {
+  color: white;
+  background-color: #0b1f67; }
+
+.btn-mediumaquamarine:hover {
+  color: white;
+  background-color: #4cb793; }
+
+.btn-sandybrown:hover {
+  color: white;
+  background-color: #de904e; }
+
+.btn-lightpink:hover {
+  color: black;
+  background-color: #ff9ead; }
+
+.btn-floralwhite:hover {
+  color: black;
+  background-color: #efe5d1; }
+
+.btn-mediumblue:hover {
+  color: white;
+  background-color: #0815b1; }
+
+.btn-aquamarine:hover {
+  color: white;
+  background-color: #6edeb8; }
+
+.btn-darkorange:hover {
+  color: white;
+  background-color: #f17a00; }
+
+.btn-thistle:hover {
+  color: black;
+  background-color: #d6aed6; }
+
+.btn-linen:hover {
+  color: black;
+  background-color: #efdac5; }
+
+.btn-blue:hover {
+  color: white;
+  background-color: #0243d6; }
+
+.btn-palegreen:hover {
+  color: white;
+  background-color: #81e281; }
+
+.btn-goldenrod:hover {
+  color: white;
+  background-color: #ce8416; }
+
+.btn-magenta:hover {
+  color: white;
+  background-color: #d208d2; }
+
+.btn-antiquewhite:hover {
+  color: black;
+  background-color: #ead7bd; }
+
+.btn-dodgerblue:hover {
+  color: white;
+  background-color: #107ae0; }
+
+.btn-lightgreen:hover {
+  color: white;
+  background-color: #71cc71; }
+
+.btn-peru:hover {
+  color: white;
+  background-color: #bd7228; }
+
+.btn-fuchsia:hover {
+  color: white;
+  background-color: #e000e0; }
+
+.btn-papayawhip:hover {
+  color: black;
+  background-color: #e6d2b0; }
+
+.btn-cornflowerblue:hover {
+  color: white;
+  background-color: #4f80d8; }
+
+.btn-springgreen:hover {
+  color: white;
+  background-color: #06d06b; }
+
+.btn-darkgoldenrod:hover {
+  color: white;
+  background-color: #a96500; }
+
+.btn-violet:hover {
+  color: white;
+  background-color: #de6bde; }
+
+.btn-blanchedalmond:hover {
+  color: black;
+  background-color: #f7d8a9; }
+
+.btn-deepskyblue:hover {
+  color: white;
+  background-color: #00a6de; }
+
+.btn-mediumspringgreen:hover {
+  color: white;
+  background-color: #06d686; }
+
+.btn-chocolate:hover {
+  color: white;
+  background-color: #b55714; }
+
+.btn-plum:hover {
+  color: black;
+  background-color: #c380c3; }
+
+.btn-bisque:hover {
+  color: black;
+  background-color: #e2c39d; }
+
+.btn-lightskyblue:hover {
+  color: black;
+  background-color: #69b4e2; }
+
+.btn-lawngreen:hover {
+  color: white;
+  background-color: #68d004; }
+
+.btn-sienna:hover {
+  color: white;
+  background-color: #823e1e; }
+
+.btn-orchid:hover {
+  color: white;
+  background-color: #bf58bb; }
+
+.btn-moccasin:hover {
+  color: black;
+  background-color: #e6c894; }
+
+.btn-skyblue:hover {
+  color: black;
+  background-color: #6b4d2e; }
+
+.btn-chartreuse:hover {
+  color: white;
+  background-color: #6cd009; }
+
+.btn-saddlebrown:hover {
+  color: white;
+  background-color: #6d360f; }
+
+.btn-mediumorchid:hover {
+  color: white;
+  background-color: #9f46b5; }
+
+.btn-navajowhite:hover {
+  color: black;
+  background-color: #e2c08e; }
+
+.btn-lightblue:hover {
+  color: black;
+  background-color: #94cadc; }
+
+.btn-greenyellow:hover {
+  color: white;
+  background-color: #93de1f; }
+
+.btn-maroon:hover {
+  color: white;
+  background-color: #5d0404; }
+
+.btn-darkorchid:hover {
+  color: white;
+  background-color: #7c27a7; }
+
+.btn-peachpuff:hover {
+  color: black;
+  background-color: #e4be9b; }
+
+.btn-powderblue:hover {
+  color: black;
+  background-color: #8fc9d0; }
+
+.btn-lime:hover {
+  color: white;
+  background-color: #06d406; }
+
+.btn-darkred:hover {
+  color: white;
+  background-color: #6d0000; }
+
+.btn-darkviolet:hover {
+  color: white;
+  background-color: #7c00b1; }
+
+.btn-mistyrose:hover {
+  color: black;
+  background-color: #e8c6c2; }
+
+.btn-paleturquoise:hover {
+  color: black;
+  background-color: #8ed0d0; }
+
+.btn-limegreen:hover {
+  color: white;
+  background-color: #2caf2c; }
+
+.btn-brown:hover {
+  color: white;
+  background-color: #881e1e; }
+
+.btn-darkmagenta:hover {
+  color: white;
+  background-color: #650165; }
+
+.btn-lavenderblush:hover {
+  color: black;
+  background-color: #eacfd8; }
+
+.btn-lightcyan:hover {
+  color: black;
+  background-color: #b8e8e8; }
+
+.btn-yellowgreen:hover {
+  color: white;
+  background-color: #84b71d; }
+
+.btn-firebrick:hover {
+  color: white;
+  background-color: #9a1717; }
+
+.btn-purple:hover {
+  color: white;
+  background-color: #630063; }
+
+.btn-seashell:hover {
+  color: black;
+  background-color: #ead8cb; }
+
+.btn-cyan:hover {
+  color: white;
+  background-color: #00d8d8; }
+
+.btn-olivedrab:hover {
+  color: white;
+  background-color: #57751a; }
+
+.btn-indianred:hover {
+  color: white;
+  background-color: #b74a4a; }
+
+.btn-indigo:hover {
+  color: white;
+  background-color: #320454; }
+
+.btn-oldlace:hover {
+  color: black;
+  background-color: #eadec7; }
+
+.btn-aqua:hover {
+  color: white;
+  background-color: #00d6d6; }
+
+.btn-olive:hover {
+  color: white;
+  background-color: #676700; }
+
+.btn-rosybrown:hover {
+  color: white;
+  background-color: #a77676; }
+
+.btn-darkslateblue:hover {
+  color: white;
+  background-color: #3a3171; }
+
+.btn-ivory:hover {
+  color: black;
+  background-color: #e8e8ca; }
+
+.btn-turquoise:hover {
+  color: black;
+  background-color: #32c1b3; }
+
+.btn-darkkhaki:hover {
+  color: white;
+  background-color: #a29d58; }
+
+.btn-darksalmon:hover {
+  color: white;
+  background-color: #d07d62; }
+
+.btn-blueviolet:hover {
+  color: white;
+  background-color: #7824c5; }
+
+.btn-honeydew:hover {
+  color: black;
+  background-color: #d0e8d0; }
+
+.btn-mediumturquoise:hover {
+  color: black;
+  background-color: #38b9b4; }
+
+.btn-palegoldenrod:hover {
+  color: black;
+  background-color: #d8d18d; }
+
+.btn-lightcoral:hover {
+  color: white;
+  background-color: #e27171; }
+
+.btn-mediumpurple:hover {
+  color: white;
+  background-color: #8160c3; }
+
+.btn-mintcream:hover {
+  color: black;
+  background-color: #d4e8de; }
+
+.btn-darkturquoise:hover {
+  color: black;
+  background-color: #00b0b3; }
+
+.btn-cornsilk:hover {
+  color: black;
+  background-color: #eae1bb; }
+
+.btn-salmon:hover {
+  color: white;
+  background-color: #e66f61; }
+
+.btn-slateblue:hover {
+  color: white;
+  background-color: #5345ab; }
+
+.btn-azure :hover {
+  color: black;
+  background-color: #d0e8e8; }
+
+.btn-lightseagreen:hover {
+  color: white;
+  background-color: #199e97; }
+
+.btn-beige:hover {
+  color: black;
+  background-color: #dedec0; }
+
+.btn-lightsalmon:hover {
+  color: white;
+  background-color: #e88158; }
+
+.btn-mediumslateblue:hover {
+  color: white;
+  background-color: #6353c7; }
+
+.btn-rhodaminered:hover {
+  color: white;
+  background-color: #a9005a; }
+
+.btn-marineblue:hover {
+  color: white;
+  background-color: #00345a; }
+
+.btn-pms534:hover {
+  color: white;
+  background-color: #2c3856; }
+
+.btn-pms540:hover {
+  color: white;
+  background-color: #00213c; }
+
+.btn-pms732:hover {
+  color: white;
+  background-color: #462508; }
+
+.btn-pms1905:hover {
+  color: black;
+  background-color: #ff7e9d; }
+
+.btn-pms1915:hover {
+  color: white;
+  background-color: #de446b; }
+
+.btn-black7:hover {
+  color: white;
+  background-color: black; }
+
+/*背景顏色*/
+.bg-dark {
+  background-color: black; }
+
+.bg-lightpink {
+  background-color: #ff99ae;
+  color: white; }
+
+/* 以下為Bootstrap 3 圖標 */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../bootstrap/bootstrapfonts/glyphicons-halflings-regular.eot");
+  src: url("../bootstrap/bootstrapfonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../bootstrap/bootstrapfonts/glyphicons-halflings-regular.woff") format("woff"), url("../bootstrap/bootstrapfonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../bootstrap/bootstrapfonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.glyphicon-asterisk:before {
+  content: "\002a"; }
+
+.glyphicon-plus:before {
+  content: "\002b"; }
+
+.glyphicon-euro:before,
+.glyphicon-eur:before {
+  content: "\20ac"; }
+
+.glyphicon-minus:before {
+  content: "\2212"; }
+
+.glyphicon-cloud:before {
+  content: "\2601"; }
+
+.glyphicon-envelope:before {
+  content: "\2709"; }
+
+.glyphicon-pencil:before {
+  content: "\270f"; }
+
+.glyphicon-glass:before {
+  content: "\e001"; }
+
+.glyphicon-music:before {
+  content: "\e002"; }
+
+.glyphicon-search:before {
+  content: "\e003"; }
+
+.glyphicon-heart:before {
+  content: "\e005"; }
+
+.glyphicon-star:before {
+  content: "\e006"; }
+
+.glyphicon-star-empty:before {
+  content: "\e007"; }
+
+.glyphicon-user:before {
+  content: "\e008"; }
+
+.glyphicon-film:before {
+  content: "\e009"; }
+
+.glyphicon-th-large:before {
+  content: "\e010"; }
+
+.glyphicon-th:before {
+  content: "\e011"; }
+
+.glyphicon-th-list:before {
+  content: "\e012"; }
+
+.glyphicon-ok:before {
+  content: "\e013"; }
+
+.glyphicon-remove:before {
+  content: "\e014"; }
+
+.glyphicon-zoom-in:before {
+  content: "\e015"; }
+
+.glyphicon-zoom-out:before {
+  content: "\e016"; }
+
+.glyphicon-off:before {
+  content: "\e017"; }
+
+.glyphicon-signal:before {
+  content: "\e018"; }
+
+.glyphicon-cog:before {
+  content: "\e019"; }
+
+.glyphicon-trash:before {
+  content: "\e020"; }
+
+.glyphicon-home:before {
+  content: "\e021"; }
+
+.glyphicon-file:before {
+  content: "\e022"; }
+
+.glyphicon-time:before {
+  content: "\e023"; }
+
+.glyphicon-road:before {
+  content: "\e024"; }
+
+.glyphicon-download-alt:before {
+  content: "\e025"; }
+
+.glyphicon-download:before {
+  content: "\e026"; }
+
+.glyphicon-upload:before {
+  content: "\e027"; }
+
+.glyphicon-inbox:before {
+  content: "\e028"; }
+
+.glyphicon-play-circle:before {
+  content: "\e029"; }
+
+.glyphicon-repeat:before {
+  content: "\e030"; }
+
+.glyphicon-refresh:before {
+  content: "\e031"; }
+
+.glyphicon-list-alt:before {
+  content: "\e032"; }
+
+.glyphicon-lock:before {
+  content: "\e033"; }
+
+.glyphicon-flag:before {
+  content: "\e034"; }
+
+.glyphicon-headphones:before {
+  content: "\e035"; }
+
+.glyphicon-volume-off:before {
+  content: "\e036"; }
+
+.glyphicon-volume-down:before {
+  content: "\e037"; }
+
+.glyphicon-volume-up:before {
+  content: "\e038"; }
+
+.glyphicon-qrcode:before {
+  content: "\e039"; }
+
+.glyphicon-barcode:before {
+  content: "\e040"; }
+
+.glyphicon-tag:before {
+  content: "\e041"; }
+
+.glyphicon-tags:before {
+  content: "\e042"; }
+
+.glyphicon-book:before {
+  content: "\e043"; }
+
+.glyphicon-bookmark:before {
+  content: "\e044"; }
+
+.glyphicon-print:before {
+  content: "\e045"; }
+
+.glyphicon-camera:before {
+  content: "\e046"; }
+
+.glyphicon-font:before {
+  content: "\e047"; }
+
+.glyphicon-bold:before {
+  content: "\e048"; }
+
+.glyphicon-italic:before {
+  content: "\e049"; }
+
+.glyphicon-text-height:before {
+  content: "\e050"; }
+
+.glyphicon-text-width:before {
+  content: "\e051"; }
+
+.glyphicon-align-left:before {
+  content: "\e052"; }
+
+.glyphicon-align-center:before {
+  content: "\e053"; }
+
+.glyphicon-align-right:before {
+  content: "\e054"; }
+
+.glyphicon-align-justify:before {
+  content: "\e055"; }
+
+.glyphicon-list:before {
+  content: "\e056"; }
+
+.glyphicon-indent-left:before {
+  content: "\e057"; }
+
+.glyphicon-indent-right:before {
+  content: "\e058"; }
+
+.glyphicon-facetime-video:before {
+  content: "\e059"; }
+
+.glyphicon-picture:before {
+  content: "\e060"; }
+
+.glyphicon-map-marker:before {
+  content: "\e062"; }
+
+.glyphicon-adjust:before {
+  content: "\e063"; }
+
+.glyphicon-tint:before {
+  content: "\e064"; }
+
+.glyphicon-edit:before {
+  content: "\e065"; }
+
+.glyphicon-share:before {
+  content: "\e066"; }
+
+.glyphicon-check:before {
+  content: "\e067"; }
+
+.glyphicon-move:before {
+  content: "\e068"; }
+
+.glyphicon-step-backward:before {
+  content: "\e069"; }
+
+.glyphicon-fast-backward:before {
+  content: "\e070"; }
+
+.glyphicon-backward:before {
+  content: "\e071"; }
+
+.glyphicon-play:before {
+  content: "\e072"; }
+
+.glyphicon-pause:before {
+  content: "\e073"; }
+
+.glyphicon-stop:before {
+  content: "\e074"; }
+
+.glyphicon-forward:before {
+  content: "\e075"; }
+
+.glyphicon-fast-forward:before {
+  content: "\e076"; }
+
+.glyphicon-step-forward:before {
+  content: "\e077"; }
+
+.glyphicon-eject:before {
+  content: "\e078"; }
+
+.glyphicon-chevron-left:before {
+  content: "\e079"; }
+
+.glyphicon-chevron-right:before {
+  content: "\e080"; }
+
+.glyphicon-plus-sign:before {
+  content: "\e081"; }
+
+.glyphicon-minus-sign:before {
+  content: "\e082"; }
+
+.glyphicon-remove-sign:before {
+  content: "\e083"; }
+
+.glyphicon-ok-sign:before {
+  content: "\e084"; }
+
+.glyphicon-question-sign:before {
+  content: "\e085"; }
+
+.glyphicon-info-sign:before {
+  content: "\e086"; }
+
+.glyphicon-screenshot:before {
+  content: "\e087"; }
+
+.glyphicon-remove-circle:before {
+  content: "\e088"; }
+
+.glyphicon-ok-circle:before {
+  content: "\e089"; }
+
+.glyphicon-ban-circle:before {
+  content: "\e090"; }
+
+.glyphicon-arrow-left:before {
+  content: "\e091"; }
+
+.glyphicon-arrow-right:before {
+  content: "\e092"; }
+
+.glyphicon-arrow-up:before {
+  content: "\e093"; }
+
+.glyphicon-arrow-down:before {
+  content: "\e094"; }
+
+.glyphicon-share-alt:before {
+  content: "\e095"; }
+
+.glyphicon-resize-full:before {
+  content: "\e096"; }
+
+.glyphicon-resize-small:before {
+  content: "\e097"; }
+
+.glyphicon-exclamation-sign:before {
+  content: "\e101"; }
+
+.glyphicon-gift:before {
+  content: "\e102"; }
+
+.glyphicon-leaf:before {
+  content: "\e103"; }
+
+.glyphicon-fire:before {
+  content: "\e104"; }
+
+.glyphicon-eye-open:before {
+  content: "\e105"; }
+
+.glyphicon-eye-close:before {
+  content: "\e106"; }
+
+.glyphicon-warning-sign:before {
+  content: "\e107"; }
+
+.glyphicon-plane:before {
+  content: "\e108"; }
+
+.glyphicon-calendar:before {
+  content: "\e109"; }
+
+.glyphicon-random:before {
+  content: "\e110"; }
+
+.glyphicon-comment:before {
+  content: "\e111"; }
+
+.glyphicon-magnet:before {
+  content: "\e112"; }
+
+.glyphicon-chevron-up:before {
+  content: "\e113"; }
+
+.glyphicon-chevron-down:before {
+  content: "\e114"; }
+
+.glyphicon-retweet:before {
+  content: "\e115"; }
+
+.glyphicon-shopping-cart:before {
+  content: "\e116"; }
+
+.glyphicon-folder-close:before {
+  content: "\e117"; }
+
+.glyphicon-folder-open:before {
+  content: "\e118"; }
+
+.glyphicon-resize-vertical:before {
+  content: "\e119"; }
+
+.glyphicon-resize-horizontal:before {
+  content: "\e120"; }
+
+.glyphicon-hdd:before {
+  content: "\e121"; }
+
+.glyphicon-bullhorn:before {
+  content: "\e122"; }
+
+.glyphicon-bell:before {
+  content: "\e123"; }
+
+.glyphicon-certificate:before {
+  content: "\e124"; }
+
+.glyphicon-thumbs-up:before {
+  content: "\e125"; }
+
+.glyphicon-thumbs-down:before {
+  content: "\e126"; }
+
+.glyphicon-hand-right:before {
+  content: "\e127"; }
+
+.glyphicon-hand-left:before {
+  content: "\e128"; }
+
+.glyphicon-hand-up:before {
+  content: "\e129"; }
+
+.glyphicon-hand-down:before {
+  content: "\e130"; }
+
+.glyphicon-circle-arrow-right:before {
+  content: "\e131"; }
+
+.glyphicon-circle-arrow-left:before {
+  content: "\e132"; }
+
+.glyphicon-circle-arrow-up:before {
+  content: "\e133"; }
+
+.glyphicon-circle-arrow-down:before {
+  content: "\e134"; }
+
+.glyphicon-globe:before {
+  content: "\e135"; }
+
+.glyphicon-wrench:before {
+  content: "\e136"; }
+
+.glyphicon-tasks:before {
+  content: "\e137"; }
+
+.glyphicon-filter:before {
+  content: "\e138"; }
+
+.glyphicon-briefcase:before {
+  content: "\e139"; }
+
+.glyphicon-fullscreen:before {
+  content: "\e140"; }
+
+.glyphicon-dashboard:before {
+  content: "\e141"; }
+
+.glyphicon-paperclip:before {
+  content: "\e142"; }
+
+.glyphicon-heart-empty:before {
+  content: "\e143"; }
+
+.glyphicon-link:before {
+  content: "\e144"; }
+
+.glyphicon-phone:before {
+  content: "\e145"; }
+
+.glyphicon-pushpin:before {
+  content: "\e146"; }
+
+.glyphicon-usd:before {
+  content: "\e148"; }
+
+.glyphicon-gbp:before {
+  content: "\e149"; }
+
+.glyphicon-sort:before {
+  content: "\e150"; }
+
+.glyphicon-sort-by-alphabet:before {
+  content: "\e151"; }
+
+.glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152"; }
+
+.glyphicon-sort-by-order:before {
+  content: "\e153"; }
+
+.glyphicon-sort-by-order-alt:before {
+  content: "\e154"; }
+
+.glyphicon-sort-by-attributes:before {
+  content: "\e155"; }
+
+.glyphicon-sort-by-attributes-alt:before {
+  content: "\e156"; }
+
+.glyphicon-unchecked:before {
+  content: "\e157"; }
+
+.glyphicon-expand:before {
+  content: "\e158"; }
+
+.glyphicon-collapse-down:before {
+  content: "\e159"; }
+
+.glyphicon-collapse-up:before {
+  content: "\e160"; }
+
+.glyphicon-log-in:before {
+  content: "\e161"; }
+
+.glyphicon-flash:before {
+  content: "\e162"; }
+
+.glyphicon-log-out:before {
+  content: "\e163"; }
+
+.glyphicon-new-window:before {
+  content: "\e164"; }
+
+.glyphicon-record:before {
+  content: "\e165"; }
+
+.glyphicon-save:before {
+  content: "\e166"; }
+
+.glyphicon-open:before {
+  content: "\e167"; }
+
+.glyphicon-saved:before {
+  content: "\e168"; }
+
+.glyphicon-import:before {
+  content: "\e169"; }
+
+.glyphicon-export:before {
+  content: "\e170"; }
+
+.glyphicon-send:before {
+  content: "\e171"; }
+
+.glyphicon-floppy-disk:before {
+  content: "\e172"; }
+
+.glyphicon-floppy-saved:before {
+  content: "\e173"; }
+
+.glyphicon-floppy-remove:before {
+  content: "\e174"; }
+
+.glyphicon-floppy-save:before {
+  content: "\e175"; }
+
+.glyphicon-floppy-open:before {
+  content: "\e176"; }
+
+.glyphicon-credit-card:before {
+  content: "\e177"; }
+
+.glyphicon-transfer:before {
+  content: "\e178"; }
+
+.glyphicon-cutlery:before {
+  content: "\e179"; }
+
+.glyphicon-header:before {
+  content: "\e180"; }
+
+.glyphicon-compressed:before {
+  content: "\e181"; }
+
+.glyphicon-earphone:before {
+  content: "\e182"; }
+
+.glyphicon-phone-alt:before {
+  content: "\e183"; }
+
+.glyphicon-tower:before {
+  content: "\e184"; }
+
+.glyphicon-stats:before {
+  content: "\e185"; }
+
+.glyphicon-sd-video:before {
+  content: "\e186"; }
+
+.glyphicon-hd-video:before {
+  content: "\e187"; }
+
+.glyphicon-subtitles:before {
+  content: "\e188"; }
+
+.glyphicon-sound-stereo:before {
+  content: "\e189"; }
+
+.glyphicon-sound-dolby:before {
+  content: "\e190"; }
+
+.glyphicon-sound-5-1:before {
+  content: "\e191"; }
+
+.glyphicon-sound-6-1:before {
+  content: "\e192"; }
+
+.glyphicon-sound-7-1:before {
+  content: "\e193"; }
+
+.glyphicon-copyright-mark:before {
+  content: "\e194"; }
+
+.glyphicon-registration-mark:before {
+  content: "\e195"; }
+
+.glyphicon-cloud-download:before {
+  content: "\e197"; }
+
+.glyphicon-cloud-upload:before {
+  content: "\e198"; }
+
+.glyphicon-tree-conifer:before {
+  content: "\e199"; }
+
+.glyphicon-tree-deciduous:before {
+  content: "\e200"; }
+
+.glyphicon-cd:before {
+  content: "\e201"; }
+
+.glyphicon-save-file:before {
+  content: "\e202"; }
+
+.glyphicon-open-file:before {
+  content: "\e203"; }
+
+.glyphicon-level-up:before {
+  content: "\e204"; }
+
+.glyphicon-copy:before {
+  content: "\e205"; }
+
+.glyphicon-paste:before {
+  content: "\e206"; }
+
+.glyphicon-alert:before {
+  content: "\e209"; }
+
+.glyphicon-equalizer:before {
+  content: "\e210"; }
+
+.glyphicon-king:before {
+  content: "\e211"; }
+
+.glyphicon-queen:before {
+  content: "\e212"; }
+
+.glyphicon-pawn:before {
+  content: "\e213"; }
+
+.glyphicon-bishop:before {
+  content: "\e214"; }
+
+.glyphicon-knight:before {
+  content: "\e215"; }
+
+.glyphicon-baby-formula:before {
+  content: "\e216"; }
+
+.glyphicon-tent:before {
+  content: "\26fa"; }
+
+.glyphicon-blackboard:before {
+  content: "\e218"; }
+
+.glyphicon-bed:before {
+  content: "\e219"; }
+
+.glyphicon-apple:before {
+  content: "\f8ff"; }
+
+.glyphicon-erase:before {
+  content: "\e221"; }
+
+.glyphicon-hourglass:before {
+  content: "\231b"; }
+
+.glyphicon-lamp:before {
+  content: "\e223"; }
+
+.glyphicon-duplicate:before {
+  content: "\e224"; }
+
+.glyphicon-piggy-bank:before {
+  content: "\e225"; }
+
+.glyphicon-scissors:before {
+  content: "\e226"; }
+
+.glyphicon-bitcoin:before {
+  content: "\e227"; }
+
+.glyphicon-btc:before {
+  content: "\e227"; }
+
+.glyphicon-xbt:before {
+  content: "\e227"; }
+
+.glyphicon-yen:before {
+  content: "\00a5"; }
+
+.glyphicon-jpy:before {
+  content: "\00a5"; }
+
+.glyphicon-ruble:before {
+  content: "\20bd"; }
+
+.glyphicon-rub:before {
+  content: "\20bd"; }
+
+.glyphicon-scale:before {
+  content: "\e230"; }
+
+.glyphicon-ice-lolly:before {
+  content: "\e231"; }
+
+.glyphicon-ice-lolly-tasted:before {
+  content: "\e232"; }
+
+.glyphicon-education:before {
+  content: "\e233"; }
+
+.glyphicon-option-horizontal:before {
+  content: "\e234"; }
+
+.glyphicon-option-vertical:before {
+  content: "\e235"; }
+
+.glyphicon-menu-hamburger:before {
+  content: "\e236"; }
+
+.glyphicon-modal-window:before {
+  content: "\e237"; }
+
+.glyphicon-oil:before {
+  content: "\e238"; }
+
+.glyphicon-grain:before {
+  content: "\e239"; }
+
+.glyphicon-sunglasses:before {
+  content: "\e240"; }
+
+.glyphicon-text-size:before {
+  content: "\e241"; }
+
+.glyphicon-text-color:before {
+  content: "\e242"; }
+
+.glyphicon-text-background:before {
+  content: "\e243"; }
+
+.glyphicon-object-align-top:before {
+  content: "\e244"; }
+
+.glyphicon-object-align-bottom:before {
+  content: "\e245"; }
+
+.glyphicon-object-align-horizontal:before {
+  content: "\e246"; }
+
+.glyphicon-object-align-left:before {
+  content: "\e247"; }
+
+.glyphicon-object-align-vertical:before {
+  content: "\e248"; }
+
+.glyphicon-object-align-right:before {
+  content: "\e249"; }
+
+.glyphicon-triangle-right:before {
+  content: "\e250"; }
+
+.glyphicon-triangle-left:before {
+  content: "\e251"; }
+
+.glyphicon-triangle-bottom:before {
+  content: "\e252"; }
+
+.glyphicon-triangle-top:before {
+  content: "\e253"; }
+
+.glyphicon-console:before {
+  content: "\e254"; }
+
+.glyphicon-superscript:before {
+  content: "\e255"; }
+
+.glyphicon-subscript:before {
+  content: "\e256"; }
+
+.glyphicon-menu-left:before {
+  content: "\e257"; }
+
+.glyphicon-menu-right:before {
+  content: "\e258"; }
+
+.glyphicon-menu-down:before {
+  content: "\e259"; }
+
+.glyphicon-menu-up:before {
+  content: "\e260"; }
+
+/* 共用樣式設定 */
+@media (max-width: 350px) {
+  .h3 {
+    font-size: 20px; } }
+
+.maincolor-text {
+  color: #E50056; }
+
+.table-noborder .table td, .table-noborder .table th {
+  border-top: 0px solid white; }
+
+/* 下方nav選單頁樣式 */
+nav.navbar {
+  padding: 0px; }
+
+nav .col {
+  padding: 5px 5px; }
+nav a {
+  font-size: 40px; }
+  @media (max-width: 350px) {
+    nav a {
+      font-size: 20px; } }
+  nav a span.glyphicon, nav a i.far, nav a i.fas {
+    color: white;
+    transition: 0.6s; }
+    @media (max-width: 575px) {
+      nav a span.glyphicon, nav a i.far, nav a i.fas {
+        font-size: 30px; } }
+  nav a span.glyphicon:hover, nav a i.far:hover, nav a i.fas:hover {
+    color: #E50056; }
+nav .active span.glyphicon, nav .active i.far, nav .active i.fas {
+  color: #E50056; }
+
+nav .nav-item {
+  margin: 0px 30px; }
+
+/* 登入頁樣式 */
+.shadow-lg {
+  box-shadow: none !important; }
+
+.bg-indexlogin {
+  background-image: url("../images/bg-1.jpg");
+  background-size: cover;
+  background-position: top center; }
+  .bg-indexlogin .bg-black {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%; }
+  .bg-indexlogin form.mt-50 {
+    margin-top: 30%; }
+  .bg-indexlogin .form-group input {
+    color: dimgray;
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0); }
+  .bg-indexlogin .form-group input::-webkit-input-placeholder {
+    color: gray; }
+  .bg-indexlogin .form-check-label {
+    color: gray; }
+  .bg-indexlogin .btn-login {
+    width: 100%;
+    color: white;
+    background-color: black;
+    transition: 0.8s; }
+  .bg-indexlogin .btn-login:hover {
+    background-color: black; }
+
+/* 選單頁樣式 */
+.bg-topbar a .fas {
+  color: white;
+  font-size: 32px; }
+
+.bg {
+  padding: 80px 0px 120px 0px; }
+
+.bg-menu {
+  background-image: url("../images/bg-2.jpg");
+  background-size: cover;
+  background-position: top center; }
+  .bg-menu .h2 {
+    color: white; }
+  .bg-menu .figure {
+    width: 220px;
+    height: 220px;
+    overflow: hidden; }
+    @media (max-width: 575px) {
+      .bg-menu .figure {
+        width: 120px;
+        height: 120px; } }
+  .bg-menu .figure img {
+    width: 120%;
+    left: -10%;
+    height: 120%;
+    top: -10%; }
+  .bg-menu .figure-caption {
+    color: gray;
+    font-size: 24px;
+    transition: 0.5s; }
+    @media (max-width: 575px) {
+      .bg-menu .figure-caption {
+        font-size: 16px; } }
+  .bg-menu a:hover .figure-caption {
+    color: #e50056; }
+
+.bg-topbar {
+  background-color: #E50056;
+  color: white; }
+  @media (max-width: 350px) {
+    .bg-topbar .h4 {
+      font-size: 20px; } }
+
+.bg-logo {
+  background-color: #3976a3; }
+
+.menu-rwd {
+  padding-top: 80px;
+  padding-bottom: 130px; }
+  @media (max-width: 767px) {
+    .menu-rwd {
+      padding-top: 50px;
+      padding-bottom: 80px; } }
+  @media (max-width: 350px) {
+    .menu-rwd .figure-caption {
+      font-size: 12px; } }
+
+.menu-list {
+  margin-bottom: 50px; }
+  @media (max-width: 767px) {
+    .menu-list {
+      margin-bottom: 20px; } }
+
+/* 客戶頁樣式 */
+@media (max-width: 350px) {
+  .client .container {
+    padding-left: 5px;
+    padding-right: 5px; } }
+@media (max-width: 350px) {
+  .client .h4 {
+    font-size: 18px; } }
+@media (max-width: 350px) {
+  .client .h5 {
+    font-size: 16px; } }
+
+.client .nav-pills .nav-link.active {
+  color: white;
+  background-color: lightpink;
+  border-radius: 0px; }
+
+.client .nav-pills .nav-item {
+  border: 1px solid #E50056; }
+
+.client .nav-pills .nav-item a {
+  color: dimgray; }
+
+.client .nav-pills .nav-item:hover a {
+  color: white;
+  background-color: #E50056;
+  border-radius: 0px; }
+
+/*客戶個人資料頁樣式*/
+.client nav a {
+  color: white;
+  font-size: 16px; }
+  @media (max-width: 350px) {
+    .client nav a {
+      font-size: 12px; } }
+
+.client nav.navbar .col-3 {
+  padding: 10px;
+  transition: 0.8s; }
+
+.client nav.navbar .col-3:hover, .client nav.navbar .col-3:focus, .client nav.navbar .col-3:active {
+  background: #E50056; }
+
+.dropdown-menu-max {
+  max-height: 200px;
+  overflow: scroll; }
+
+.client .navtabs {
+  border-bottom: 1px solid gainsboro; }
+  .client .navtabs .nav-item {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative; }
+    .client .navtabs .nav-item a.nav-link {
+      color: dimgray; }
+    .client .navtabs .nav-item a.nav-link:before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #E50056;
+      transform: translateY(-50%) scaleX(0);
+      transform-origin: right;
+      transition: 0.5s transform; }
+    .client .navtabs .nav-item a.nav-link:hover:before {
+      transform: translateY(-50%) scaleX(1);
+      transform-origin: left;
+      transition: 1s transform; }
+
+.client .nav-pills .nav-item .active {
+  color: white;
+  background-color: #E50056; }
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: white; }
+
+.clienttable a .glyphicon-calendar {
+  font-size: 24px;
+  color: #28a745; }
+
+.clienttable a .glyphicon-calendar:hover {
+  color: #1e7e34; }
+
+.clienttable a .fa-trash-alt {
+  font-size: 24px;
+  color: peru; }
+
+/*以下為諮詢表樣式*/
+/*眼睛與睫毛切換樣式*/
+@media (max-width: 350px) {
+  .table-advisory td {
+    padding-left: 5px;
+    padding-right: 3px; } }
+
+.advisory-eyelash .eyesgroup .eye img, .advisory-eyelash .eyeslashgroup .eyelash img, .client .eyesgroup .eye img, .client .eyeslashgroup .eyelash img {
+  width: 100%; }
+
+.advisory-eyelash .eyesgroup, .client .eyesgroup {
+  position: relative; }
+
+.advisory-eyelash .eyeslashgroup, .client .eyeslashgroup {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+/*諮詢表複選按鈕樣式*/
+ul.btn-choice .nav-item .nav-link {
+  color: #E50056;
+  border: 1px solid #E50056;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.8s; }
+
+ul.btn-choice .nav-item .nav-link:hover, ul.btn-choice .nav-link:active {
+  color: white;
+  background-color: #E50056; }
+
+/*表單按鈕樣式*/
+.radio-group, .checkbox-group {
+  margin: 0px 10px 10px 5px; }
+
+.radio-input, .checkbox-input {
+  display: none;
+  /*把原本的input藏起來 */ }
+
+.radio-label, .checkbox-label {
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 28px; }
+
+.radio-button {
+  /* 自定義樣式的span */
+  height: 24px;
+  width: 24px;
+  border: 5px solid #ff99ae;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.checkbox-button {
+  /* 自定義樣式的span */
+  height: 24px;
+  width: 24px;
+  border: 5px solid #ff99ae;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.radio-button::after {
+  /* 中間點點 */
+  content: "";
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff99ae;
+  opacity: 0;
+  transition: opacity 0.2s; }
+
+.checkbox-button::after {
+  /* 中間點點 */
+  content: "";
+  display: block;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff99ae;
+  opacity: 0;
+  transition: opacity 0.2s; }
+
+.radio-input:checked ~ .radio-label .radio-button::after {
+  /* 選中radio時 才顯示中間點點 */
+  opacity: 1; }
+
+.checkbox-input:checked ~ .checkbox-label .checkbox-button::after {
+  /* 選中radio時 才顯示中間點點 */
+  opacity: 1; }
+
+/*紀錄表樣式*/
+.bg-radius {
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #0000003b; }
+
+.clickimage .col-4 {
+  padding-left: 8px;
+  padding-right: 8px;
+  overflow: hidden; }
+.clickimage a .fa-plus-circle {
+  font-size: 32px;
+  color: #E50056; }
+.clickimage .deletimg {
+  position: relative;
+  top: -90%;
+  left: 90%; }
+  .clickimage .deletimg a .fa-times-circle {
+    color: red;
+    font-size: 30px; }
+
+.detail, .delete {
+  font-size: 20px; }
+  @media (max-width: 350px) {
+    .detail, .delete {
+      font-size: 12px; } }
+
+.detail a {
+  color: orange; }
+
+.delete a {
+  color: #E50056; }
+
+.card-header {
+  background-color: #800080; }
+
+.card-header > a {
+  color: #FFFFFF; }
+
+.colpadding0 .col-1 a i.fas {
+  font-size: 24px;
+  color: #87CEFA; }
+@media (max-width: 575px) {
+  .colpadding0 .col-1 {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
+.price-list {
+  border-bottom: 1px dotted lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px; }
+
+@media (max-width: 575px) {
+  .bg-lightpink h4 {
+    font-size: 20px; } }
+@media (max-width: 350px) {
+  .bg-lightpink h4 {
+    font-size: 16px; } }
+
+@media (max-width: 350px) {
+  .service-list .h5 {
+    font-size: 14px; } }
+
+@media (max-width: 350px) {
+  label .h5 {
+    font-size: 14px; } }
+
+/*業績查詢表*/
+.board {
+  background: white;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 2px 3px darkgray; }
+
+.table-maincolor .maincolor {
+  background-color: #ff99ae !important;
+  color: white; }
+
+.table-maincolor .table-striped tbody tr:nth-of-type(odd) {
+  background-color: white; }
+
+.paycount {
+  color: #E50056; }
+
+/*預約管理*/
+.order .nav-pills a.nav-link {
+  color: dimgray;
+  transition: 0.8s; }
+
+.order .nav-tabs .nav-link {
+  color: dimgray;
+  background-color: white;
+  border: 1px solid dimgray;
+  transition: 0.8s; }
+
+.order .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+  color: white;
+  background-color: black;
+  border-color: #dee2e6 #dee2e6 #fff; }
+
+.order .tab-content {
+  background-color: white; }
+
+.page-item.active .page-link {
+  background-color: #E50056;
+  border-color: #E50056; }
+
+.page-link {
+  color: #E50056; }
+
+/*日期選取器*/
+.calendar {
+  position: relative;
+  font-family: 'Century Gothic','Segoe UI', Calibri, Arial;
+  font-size: 16px;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #000;
+  text-align: center;
+  background-color: #FFF; }
+  .calendar th, .calendar td {
+    text-align: center;
+    -webki-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .calendar td:hover span {
+    color: white; }
+  .calendar th:first-child, .calendar td:first-child {
+    margin-left: 5px; }
+  .calendar span {
+    padding: 6px 4px;
+    display: block; }
+  .calendar #currM {
+    font-size: 20px; }
+  .calendar .month {
+    padding: 15px; }
+  .calendar .selected {
+    background-color: #ff99ae !important;
+    color: #FFF !important; }
+  .calendar #currDay span {
+    color: #E50056; }
+  .calendar #currDay:hover span {
+    color: white; }
+  .calendar .pMDate, .calendar .nMDate {
+    color: #AAA; }
+  .calendar .date, .calendar .pMDate, .calendar .nMDate, .calendar .month {
+    cursor: pointer; }
+  .calendar .date:not(.disabled):hover, .calendar .pMDate:not(.disabled):hover, .calendar .nMDate:not(.disabled):hover, .calendar .month:hover, .calendar .pMDate:focus, .calendar .pMDate:active {
+    background-color: #E50056;
+    color: white; }
+  .calendar .date:not(.disabled):active, .calendar .pMDate:not(.disabled):active, .calendar .nMDate:not(.disabled):active, .calendar .month:active {
+    background-color: #E50056;
+    color: white !important; }
+  .calendar #prev, .calendar #next {
+    font-family: 'Times New Roman';
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .calendar td.pMDate:hover {
+    background-color: gainsboro !important; }
+  .calendar .pMDate span {
+    color: gainsboro; }
+  .calendar .nMDate span {
+    color: darkgray; }
+  .calendar tr td#today {
+    display: none; }
+
+.calendar tr:first-child th {
+  background-color: #ff99ae;
+  font-size: 8px; }
+
+.datepicker {
+  background: url("./icon.png") transparent right no-repeat;
+  background-size: contain; }
+
+a.btn-order {
+  width: 100%;
+  color: white !important;
+  border: 1px solid #E50056;
+  background-color: #E50056;
+  transition: 0.8s; }
+
+a.btn-order:hover {
+  background-color: #CC004C; }
+
+.list-order .table .glyphicon {
+  font-size: 24px; }
+.list-order .table a .fad, .list-order .table a .fas {
+  font-size: 32px; }
+.list-order .table a .fa-usd-circle {
+  color: purple; }
+.list-order .table a .fa-pencil {
+  color: darkkhaki; }
+
+/*結帳頁面*/
+.far, .fad, .fab {
+  font-size: 30px; }

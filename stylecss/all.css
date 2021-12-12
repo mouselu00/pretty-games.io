@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* 顏色樣式 */
+.bg-lightpink {background-color: lightpink;color:white;}
+.btn-lightpink {color:white;background-color:lightpink;border-color:lightpink;}
+.btn-deeppink {color:white;background-color:deeppink;}
+a.btn-deeppink:hover {color:white;background-color:hotpink;}
+.bg-dark {background-color: black;}
+/* 登入頁樣式 */
+.bg-indexlogin {background-image: url("../images/bg-1.jpg");background-size: cover;background-position: top center;}
+.bg-indexlogin .bg-black {background-color: rgba(0,0,0,0.1);height: 100%;}
+.bg-indexlogin form.mt-50 {margin-top: 30%;}
+.bg-indexlogin .form-group input {color:white;border: 0px;border-bottom: 2px solid gray;border-radius:0px;background-color: rgba(0,0,0,0);}
+.bg-indexlogin .form-group input::-webkit-input-placeholder {color:gray;}
+.bg-indexlogin .form-check-label {color:gray;}
+.bg-indexlogin .btn-login {width: 100%;color:white;background-color: mediumorchid;border: 1px solid mediumorchid;transition: 0.8s;}
+.bg-indexlogin .btn-login:hover {background-color: darkviolet;}
+/* 選單頁樣式 */
+.bg {margin:100px 0px 100px 0px;}
+.bg-menu {background-image: url("../images/bg-2.jpg");background-size: cover;background-position: top center;}
+.bg-menu .bg-black {background-color: rgba(0,0,0,0.1);height: 100%;padding-top: 100px;padding-bottom: 100px;}
+.bg-menu .h2 {color:white;}
+.bg-menu .figure {width: 220px;height: 220px;overflow: hidden;}
+.bg-menu .figure img {width: 120%;left: -10%;height: 120%;top: -10%;}
+.bg-menu .figure-caption {color:gray;font-size:24px;transition: 0.5s;}
+.bg-menu a:hover .figure-caption {color:violet;}
+.bg-topbar {background-color:#E50056;color:white;}
+/* 下方nav選單頁樣式 */
+nav.navbar {padding: 0px;}
+nav a {font-size: 40px;}
+nav a span.glyphicon,nav a i.far,nav a i.fas {color:white;transition: 0.6s;}
+nav a span.glyphicon:hover,nav a i.far:hover,nav a i.fas:hover {color:mediumorchid;}
+nav .nav-item {margin:0px 30px;}
+.bg-logo {background-color:#3976a3;}
+/* 客戶頁樣式 */
+.client .nav-pills .nav-link.active {color:white;background-color:lightpink;border-radius: 0px;;}
+.client .nav-pills .nav-item {border:1px solid lightpink;} 
+.client .nav-pills .nav-item a {color:dimgray;}
+.clienttable {height: 500px;overflow: scroll;}
+/*眼睛與睫毛切換樣式*/
+.advisory-eyelash .eyesgroup .eye img,.advisory-eyelash .eyeslashgroup .eyelash img,.client .eyesgroup .eye img,.client .eyeslashgroup .eyelash img {width: 100%;}
+.advisory-eyelash .eyesgroup,.client .eyesgroup {position: relative;}
+.advisory-eyelash .eyeslashgroup,.client .eyeslashgroup {position: absolute;top:0px;left: 0px;}
+.advisory-eyelash .nav-pills .nav-item .nav-link {color:deeppink;border:1px solid deeppink;background-color:rgba(0,0,0,0);transition: 0.8s;}
+.advisory-eyelash .nav-pills .nav-item .nav-link:hover,.advisory-eyelash .nav-pills .nav-item .nav-link:active {color:white;background-color:deeppink;}
+/*美容除毛諮詢表樣式*/
+.advisory-body .nav-pills .nav-item .nav-link {color:deeppink;border:1px solid deeppink;background-color:rgba(0,0,0,0);transition: 0.8s;}
+.advisory-body .nav-pills .nav-item .nav-link:hover,.advisory-eyelash .nav-pills .nav-item .nav-link:active {color:white;background-color:deeppink;}
+/*美甲諮詢表樣式*/
+.advisory-nails .nav-pills .nav-item .nav-link,.client .nav-pills .nav-item .nav-link  {color:deeppink;border:1px solid deeppink;background-color:rgba(0,0,0,0);transition: 0.8s;}
+.advisory-nails .nav-pills .nav-item .nav-link:hover,.advisory-eyelash .nav-pills .nav-item .nav-link:active,.client .nav-pills .nav-item .nav-link:hover,.client .nav-pills .nav-item .nav-link:active {color:white;background-color:deeppink;}
+/*客戶個人資料頁樣式*/
+.client nav a {color:white;font-size: 16px;}
+.client nav.navbar .col-3 {padding: 10px;transition: 0.8s;}
+.client nav.navbar .col-3:hover,.client nav.navbar .col-3:focus,.client nav.navbar .col-3:active {background: #E50056;}
+.client .input-group-prepend .dropdown-menu {max-height: 200px;overflow: scroll;}
+.client .navtabs {border-bottom: 1px solid gainsboro;}
+.client .navtabs .nav-item {padding-left:0px;padding-right: 0px;position: relative;}
+.client .navtabs .nav-item a.nav-link {color:dimgray;}
+.client .navtabs .nav-item a.nav-link:before {content:'';position: absolute;top:100%;left: 0;width: 100%;height: 3px;background: #E50056;transform:translateY(-50%) scaleX(0);transform-origin: right;transition: 0.5s transform;}
+.client .navtabs .nav-item a.nav-link:hover:before {transform:translateY(-50%) scaleX(1);transform-origin: left;transition: 1s transform;}
+.client .nav-pills .nav-item .active {color:white;background-color:deeppink;}
+.table-striped tbody tr:nth-of-type(odd) {background-color: lavenderblush;}
+/*表單按鈕樣式*/
+.radio-group,.checkbox-group {margin:0px 10px 10px 5px;}
+.radio-input,.checkbox-input {
+    display: none;  /*把原本的input藏起來 */
+}
+.radio-label,.checkbox-label {
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 28px;
+}
+.radio-button {
+/* 自定義樣式的span */
+    height: 24px;
+    width:  24px;
+    border: 5px solid deeppink;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.checkbox-button {
+    /* 自定義樣式的span */
+        height: 24px;
+        width:  24px;
+        border: 5px solid deeppink;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+.radio-button::after { /* 中間點點 */
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: deeppink;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.checkbox-button::after { /* 中間點點 */
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: deeppink;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.radio-input:checked ~ .radio-label .radio-button::after {
+/* 選中radio時 才顯示中間點點 */
+    opacity: 1;
+}
+.checkbox-input:checked ~ .checkbox-label .checkbox-button::after {
+    /* 選中radio時 才顯示中間點點 */
+        opacity: 1;
+}
+@media (max-width:567px){ /*col*/
+    .navbar a i {font-size: 24px;}
+    .bg-menu .figure {width: 120px;height: 120px;}
+    .bg-menu .figure-caption {font-size: 16px;}
+}

@@ -1,0 +1,87 @@
+/* 共用樣式設定 */
+.h3 {
+	@include minimobile {
+		font-size: 20px;
+	}
+}
+.maincolor-text {color:$maincolor;}
+.table-noborder .table td,.table-noborder .table th{border-top:0px solid white;}
+/* 下方nav選單頁樣式 */
+nav.navbar {padding: 0px;}
+nav {
+	.col {padding: 5px 5px;}
+	a {
+		font-size: 40px;
+		@include minimobile {
+			font-size: 20px;
+		}
+		span.glyphicon,i.far,i.fas {
+			color:white;transition: 0.6s;
+			@include mobile {
+				font-size: 30px;
+			}
+		}
+		span.glyphicon:hover,i.far:hover,i.fas:hover {color:$maincolor;}
+	}
+	.active span.glyphicon,.active i.far,.active i.fas {color:$maincolor;}
+}
+nav .nav-item {margin:0px 30px;}
+/* 登入頁樣式 */
+.shadow-lg{
+	box-shadow: none !important;
+}
+.bg-indexlogin {
+	background-image: url("../images/bg-1.jpg");
+	background-size: cover;
+	background-position: top center;
+	.bg-black {background-color: rgba(0,0,0,0.1);height: 100%;}
+	form.mt-50 {margin-top: 30%;}
+	.form-group input {color:dimgray;border: 0px;border-bottom: 1px solid black;border-radius:0px;background-color: rgba(0,0,0,0);}
+	.form-group input::-webkit-input-placeholder {color:gray;}
+	.form-check-label {color:gray;}
+	.btn-login {width: 100%;color:white;background-color: black;transition: 0.8s;}
+	.btn-login:hover {background-color: black;}
+}
+/* 選單頁樣式 */
+.bg-topbar a .fas {color:white;font-size: 32px;}
+.bg {padding:80px 0px 120px 0px;}
+.bg-menu {
+	background-image: url("../images/bg-2.jpg");background-size: cover;background-position: top center;
+	.h2 {color:white;}
+	.figure img {width: 100%;}
+	.figure-caption {
+		color:gray;font-size:24px;transition: 0.5s;
+		@include mobile {
+			font-size: 16px;
+		}
+	}
+	a:hover .figure-caption {color:$deeppink;}
+}
+.bg-topbar {
+	background-color:$maincolor;color:white;
+	.h4 {
+		@include minimobile {
+			font-size: 20px;
+		}
+	}
+}
+.bg-logo {background-color:#3976a3;}
+.menu-rwd {
+	padding-top:80px;
+	padding-bottom: 500px;
+	@include pad {
+		padding-top:50px;
+		padding-bottom: 80px;
+	}
+	.figure-caption {
+		@include minimobile {
+			font-size: 12px;
+		}
+	}
+}
+.menu-list {
+	margin-bottom:50px;
+	@include pad {
+		margin-bottom:20px;
+	}
+}

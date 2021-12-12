@@ -1,0 +1,289 @@
+.bg-requirement {
+	height: 300px;
+	background-image: url(../images/bg-requirement.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	.requirement {
+		@include mobile {
+			font-size:16px;
+			padding-top:30px;
+		}
+	}
+}
+/* 客戶頁樣式 */
+.client {
+	.container {
+		@include minimobile {
+			padding-left: 5px;padding-right: 5px;
+		}
+	}
+	.h4 {
+		@include minimobile {
+			font-size: 18px;
+		}
+	}
+	.h5 {
+		@include minimobile {
+			font-size: 16px;
+		}
+	}
+}
+.client .nav-pills .nav-link.active {color:white;background-color:lightpink;border-radius: 0px;}
+.client .nav-pills .nav-item {border:1px solid $maincolor;}
+.client .nav-pills .nav-item a {color:dimgray;}
+.client .nav-pills .nav-item:hover a {color:white;background-color: $maincolor;border-radius: 0px;}
+/*客戶個人資料頁樣式*/
+.client nav a {
+	color:white;font-size: 16px;
+	@include minimobile {
+		font-size: 12px;
+	}
+}
+.client nav.navbar .col-3 {padding: 10px;transition: 0.8s;}
+.client nav.navbar .col-3:hover,.client nav.navbar .col-3:focus,.client nav.navbar .col-3:active {background: $maincolor;}
+.dropdown-menu-max {max-height: 200px;overflow: scroll;}
+.client .navtabs {
+	border-bottom: 1px solid gainsboro;
+	.nav-item {
+		padding-left:0px;padding-right: 0px;position: relative;
+		a.nav-link {color:dimgray;}
+		a.nav-link:before {content:'';position: absolute;top:100%;left: 0;width: 100%;height: 3px;background: #E50056;transform:translateY(-50%) scaleX(0);transform-origin: right;transition: 0.5s transform;}
+		a.nav-link:hover:before {transform:translateY(-50%) scaleX(1);transform-origin: left;transition: 1s transform;}
+	}
+}
+.client .nav-pills .nav-item .active {color:white;background-color:$maincolor;}
+.table-striped tbody tr:nth-of-type(odd) {background-color: white;}
+.clienttable a .glyphicon-calendar {font-size: 24px;color:#28a745;}
+.clienttable a .glyphicon-calendar:hover {color:#1e7e34;}
+.clienttable a .fa-trash-alt {font-size: 24px;color:peru;}
+/*以下為諮詢表樣式*/
+/*眼睛與睫毛切換樣式*/
+.table-advisory {
+	td {
+		@include minimobile {
+			padding-left: 5px;padding-right: 3px;
+		}
+	}
+}
+.advisory-eyelash .eyesgroup .eye img,.advisory-eyelash .eyeslashgroup .eyelash img,.client .eyesgroup .eye img,.client .eyeslashgroup .eyelash img {width: 100%;}
+.advisory-eyelash .eyesgroup,.client .eyesgroup {position: relative;}
+.advisory-eyelash .eyeslashgroup,.client .eyeslashgroup {position: absolute;top:0px;left: 0px;}
+
+/*諮詢表複選按鈕樣式*/
+ul.btn-choice .nav-item .nav-link{color:$maincolor;border:1px solid $maincolor;background-color:rgba(0,0,0,0);transition: 0.8s;}
+ul.btn-choice .nav-item .nav-link:hover,ul.btn-choice .nav-link:active {color:white;background-color:$maincolor;}
+
+/*表單按鈕樣式*/
+.radio-group,.checkbox-group {margin:0px 10px 10px 5px;}
+.radio-input,.checkbox-input {
+    display: none;  /*把原本的input藏起來 */
+}
+.radio-label,.checkbox-label {
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 28px;
+}
+.radio-button {
+/* 自定義樣式的span */
+    height: 24px;
+    width:  24px;
+    border: 5px solid #ff99ae;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.checkbox-button {
+    /* 自定義樣式的span */
+        height: 24px;
+        width:  24px;
+        border: 5px solid #ff99ae;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+.radio-button::after { /* 中間點點 */
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff99ae;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.checkbox-button::after { /* 中間點點 */
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff99ae;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.radio-input:checked ~ .radio-label .radio-button::after {
+/* 選中radio時 才顯示中間點點 */
+    opacity: 1;
+}
+.checkbox-input:checked ~ .checkbox-label .checkbox-button::after {
+    /* 選中radio時 才顯示中間點點 */
+    opacity: 1;
+}
+
+/*紀錄表樣式*/
+.bg-radius {border-radius:5px;box-shadow:1px 1px 6px #0000003b;}
+.clickimage {
+	.col-4 {padding-left: 8px;padding-right: 8px;overflow: hidden;}
+	a .fa-plus-circle {font-size: 32px;color:#E50056;}
+	.deletimg {
+		position: relative;top:-90%;left: 90%;
+		a .fa-times-circle {color:red;font-size: 30px;}
+	}
+}
+.detail,.delete {
+	font-size:20px;
+	@include minimobile {
+		font-size: 12px;
+	}
+}
+.detail a{color:orange;}
+.delete a {color:$maincolor;}
+.card-header {background-color: $purple;}
+.card-header > a {color:$white;}
+.colpadding0 {
+	.col-1 {
+		a i.fas {font-size:24px;color:$lightskyblue;}
+		@include mobile {
+			padding-left: 0px;padding-right: 0px;
+		}
+	}
+}
+.price-list {border-bottom: 1px dotted lightgray;border-radius: 5px;margin-bottom: 10px;}
+.bg-lightpink h4 {
+	@include mobile {
+		font-size: 20px;
+	}
+	@include minimobile {
+		font-size: 16px;
+	}
+}
+.service-list .h5 {
+	@include minimobile {
+		font-size: 14px;
+	}
+}
+label .h5 {
+	@include minimobile {
+		font-size: 14px;
+	}
+}
+/*業績查詢表*/
+.board {background: white;border-radius:5px;border:1px solid whitesmoke;box-shadow:2px 2px 3px darkgray;}
+.table-maincolor .maincolor {background-color: #ff99ae !important;color: white;}
+.table-maincolor .table-striped tbody tr:nth-of-type(odd){background-color:white;}
+.paycount {color:$maincolor;}
+/*預約管理*/
+.order .nav-pills a.nav-link {
+	color:dimgray;
+	transition: 0.8s;
+}
+.order .nav-tabs .nav-link {
+	color: dimgray;
+    background-color: white;
+    border: 1px solid dimgray;
+	transition: 0.8s;
+}
+.order .nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active,.nav-tabs .nav-link:hover {
+	color: white;
+    background-color: black;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.order .tab-content {background-color:white;}
+.page-item.active .page-link {background-color:$maincolor;border-color:$maincolor;}
+.page-link {color:$maincolor;}
+/*日期選取器*/
+.calendar {
+	position: relative;
+	font-family: 'Century Gothic','Segoe UI', Calibri, Arial;
+	font-size: 16px;
+	border-collapse: collapse;
+	margin: 0; padding: 0;
+	border:1px solid rgba(0,0,0,0.08);
+	color: #000;
+	text-align: center;
+	background-color: #FFF;
+	th,td {
+		text-align: center;
+		-webki-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	td:hover span {color:white;}
+	th:first-child,td:first-child {
+		margin-left: 5px;
+	}
+	span {
+		padding: 6px 4px; 
+		display: block;
+	}
+	#currM {font-size: 20px;}
+	.month {
+		padding: 15px;
+	}
+	.selected {
+		background-color: $secondarycolor !important;
+		color: #FFF !important;
+	}
+	
+	#currDay span { color:#E50056;}
+	#currDay:hover span { color:white;}
+	.pMDate,.nMDate { color: #AAA;}
+	.date,.pMDate,.nMDate,.month {cursor: pointer;}
+	.date:not(.disabled):hover,.pMDate:not(.disabled):hover,.nMDate:not(.disabled):hover,.month:hover,.pMDate:focus,.pMDate:active { background-color: #E50056;color: white;}
+	.date:not(.disabled):active,.pMDate:not(.disabled):active,.nMDate:not(.disabled):active,.month:active { background-color: #E50056; color: white!important; }
+	#prev,#next {
+		font-family: 'Times New Roman';
+		font-size: 28px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	td.pMDate:hover {background-color: gainsboro!important;}
+	.pMDate span {color:gainsboro;}
+	.nMDate span {color:darkgray;}
+	tr td#today {display:none; }
+}
+.calendar tr:first-child th {
+	background-color: $secondarycolor;
+	font-size: 8px;
+}
+.datepicker {
+	background: url('./icon.png') transparent right no-repeat;
+	background-size: contain;
+}
+
+a.btn-order {width:100%;color:white!important;border:1px solid $maincolor;background-color:$maincolor;transition: 0.8s;}
+a.btn-order:hover {background-color:$maincolorhover;}
+.list-order {
+	.table {
+		.glyphicon {font-size: 24px;}
+		a {
+			.fad,.fas {font-size: 32px;}
+			.fa-usd-circle {color:purple;}
+			.fa-pencil {color:darkkhaki;}
+		}
+	}
+}
+/*結帳頁面*/
+.far,.fad,.fab {font-size:30px;}
